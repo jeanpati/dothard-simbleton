@@ -4,7 +4,6 @@ export const BusinessList = () => {
   let businessHTML = "";
 
   allBusinesses.forEach((business) => {
-    console.log(business.companyName);
     businessHTML += `
         <section class="business">
             <h3 class="business__name">${business.companyName}</h3>
