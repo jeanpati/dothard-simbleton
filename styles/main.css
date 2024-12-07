@@ -1,0 +1,98 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffe7fb;
+  color: #333;
+}
+
+/* Main Container */
+#content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Input Field */
+#companySearch {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Titles */
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #555;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Articles */
+article {
+  margin-bottom: 20px;
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Individual Businesses */
+.business {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background: #fafafa;
+}
+
+.business__address {
+  margin: 5px 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #666;
+}
+
+/* Highlight Manufacturing */
+.businesses--manufacturing {
+  background: #eef7ff;
+  border-color: #b3d7ff;
+}
+
+.businesses--manufacturing h2 {
+  color: #2a77c1;
+}
+
+/* Highlight New York */
+.businesses--newYork {
+  background: #fef8e8;
+  border-color: #ffd580;
+}
+
+.businesses--newYork h2 {
+  color: #c1962a;
+}
+
+/* Agents Section */
+.agents {
+  background: #f4f9f4;
+  border-color: #cce8cc;
+}
+
+.agents h2 {
+  color: #4caf50;
+}
+
+/* Utility Classes */
+.foundBusinesses {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #ff5722;
+}
