@@ -1,3 +1,4 @@
+import { AgentList } from "./AgentList.js";
 import { BusinessList } from "./BusinessList.js";
 import { ManufacturingList } from "./ManufacturingBusinesses.js";
 import { newYorkBusinessList } from "./NewYorkBusinesses.js";
@@ -27,7 +28,7 @@ const renderHTML = () => {
 
   <article class="agents">
       <h2>Purchasing Agents</h2>
-      
+      ${AgentList()}
   </article>
   `;
 };

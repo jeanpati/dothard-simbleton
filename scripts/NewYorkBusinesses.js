@@ -12,7 +12,6 @@ export const newYorkBusinessList = () => {
 
   const newYorkBusinesses = allBusinesses.filter(inNY);
 
-  console.log(newYorkBusinesses);
   newYorkBusinesses.forEach((business) => {
     newYorkBusinessListHTML += `      <section>
         <h3>${business.companyName}</h3>
